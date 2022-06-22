@@ -1,0 +1,17 @@
+# Output products list for <yekan_englisi>
+_xmsgs\pn_parser.xmsgs
+core_resources.txt
+gui_latency.txt
+yekan_englisi.asy
+yekan_englisi.gise
+yekan_englisi.ngc
+yekan_englisi.sym
+yekan_englisi.vhd
+yekan_englisi.vho
+yekan_englisi.xco
+yekan_englisi.xise
+yekan_englisi\doc\c_counter_binary_v11_0_readme.txt
+yekan_englisi\doc\c_counter_binary_v11_0_vinfo.html
+yekan_englisi\doc\ds215_counter.pdf
+yekan_englisi_flist.txt
+yekan_englisi_xmdf.tcl

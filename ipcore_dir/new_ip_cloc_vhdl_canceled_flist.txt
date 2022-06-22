@@ -1,0 +1,16 @@
+# Output products list for <new_ip_cloc_vhdl_canceled>
+core_resources.txt
+gui_latency.txt
+new_ip_cloc_vhdl_canceled.asy
+new_ip_cloc_vhdl_canceled.gise
+new_ip_cloc_vhdl_canceled.ngc
+new_ip_cloc_vhdl_canceled.sym
+new_ip_cloc_vhdl_canceled.vhd
+new_ip_cloc_vhdl_canceled.vho
+new_ip_cloc_vhdl_canceled.xco
+new_ip_cloc_vhdl_canceled.xise
+new_ip_cloc_vhdl_canceled\doc\c_counter_binary_v11_0_readme.txt
+new_ip_cloc_vhdl_canceled\doc\c_counter_binary_v11_0_vinfo.html
+new_ip_cloc_vhdl_canceled\doc\ds215_counter.pdf
+new_ip_cloc_vhdl_canceled_flist.txt
+new_ip_cloc_vhdl_canceled_xmdf.tcl

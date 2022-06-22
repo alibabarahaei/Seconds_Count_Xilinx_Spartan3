@@ -1,0 +1,57 @@
+Running: d:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic_isim_beh.exe -prj E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic_beh.prj work.clock_vhdl_canceled_schematic 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/new_ip_cloc_vhdl_canceled.vhd" into library work
+Parsing VHDL file "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/yekan_englisi.vhd" into library work
+Parsing VHDL file "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/dahgan_englisi.vhd" into library work
+Parsing VHDL file "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling package bip_utils_pkg_v2_0
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package xbip_counter_v2_0_pkg
+Compiling package c_counter_binary_v11_0_pkg
+Compiling package xbip_counter_v2_0_xst_comp
+Compiling package bip_usecase_utils_pkg_v2_0
+Compiling package c_addsub_pkg_v11_0
+Compiling package c_compare_v11_0_comp
+Compiling package c_mux_bus_v11_0_comp
+Compiling package c_reg_fd_v11_0_comp
+Compiling architecture behavioral of entity c_reg_fd_v11_0 [\c_reg_fd_v11_0(25,"0","0",1,0,0...]
+Compiling architecture behavioral of entity c_addsub_v11_0_legacy [\c_addsub_v11_0_legacy(25,25,25,...]
+Compiling architecture behavioral of entity c_reg_fd_v11_0 [\c_reg_fd_v11_0(1,"0","0",1,0,0,...]
+Compiling architecture behavioral of entity c_compare_v11_0 [\c_compare_v11_0(25,"0",1,1,"100...]
+Compiling architecture behavioral of entity c_counter_binary_v11_0_legacy [\c_counter_binary_v11_0_legacy("...]
+Compiling architecture behavioral of entity c_counter_binary_v11_0 [\c_counter_binary_v11_0(0,0,"spa...]
+Compiling architecture new_ip_cloc_vhdl_canceled_a of entity new_ip_cloc_vhdl_canceled [new_ip_cloc_vhdl_canceled_defaul...]
+Compiling architecture behavioral of entity c_reg_fd_v11_0 [\c_reg_fd_v11_0(4,"0","0",1,0,0,...]
+Compiling architecture behavioral of entity c_addsub_v11_0_legacy [\c_addsub_v11_0_legacy(4,4,4,0,3...]
+Compiling architecture behavioral of entity c_compare_v11_0 [\c_compare_v11_0(4,"0",1,1,"1001...]
+Compiling architecture behavioral of entity c_counter_binary_v11_0_legacy [\c_counter_binary_v11_0_legacy("...]
+Compiling architecture behavioral of entity c_counter_binary_v11_0 [\c_counter_binary_v11_0(0,0,"spa...]
+Compiling architecture yekan_englisi_a of entity yekan_englisi [yekan_englisi_default]
+Compiling architecture behavioral of entity c_compare_v11_0 [\c_compare_v11_0(4,"0",1,1,"101"...]
+Compiling architecture behavioral of entity c_counter_binary_v11_0_legacy [\c_counter_binary_v11_0_legacy("...]
+Compiling architecture behavioral of entity c_counter_binary_v11_0 [\c_counter_binary_v11_0(0,0,"spa...]
+Compiling architecture dahgan_englisi_a of entity dahgan_englisi [dahgan_englisi_default]
+Compiling architecture nand2_v of entity NAND2 [nand2_default]
+Compiling architecture ram16x8s_v of entity RAM16X8S [\RAM16X8S("0000001101111100","00...]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture behavioral of entity clock_vhdl_canceled_schematic
+Time Resolution for simulation is 1ps.
+Waiting for 34 sub-compilation(s) to finish...
+Compiled 60 VHDL Units
+Built simulation executable E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic_isim_beh.exe
+Fuse Memory Usage: 60928 KB
+Fuse CPU Usage: 2027 ms

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic_isim_beh.exe" -prj "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic_beh.prj" "work.clock_vhdl_canceled_schematic" 

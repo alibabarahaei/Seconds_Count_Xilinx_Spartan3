@@ -1,0 +1,36 @@
+V3 23
+FL C:/Users/student/Desktop/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic.vhf 2022/06/08.15:18:23 P.68d
+FL C:/Users/student/Desktop/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/dahgan_englisi.vhd 2022/06/08.14:38:53 P.68d
+FL C:/Users/student/Desktop/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/new_ip_cloc_vhdl_canceled.vhd 2022/06/08.09:46:18 P.68d
+FL C:/Users/student/Desktop/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/yekan_englisi.vhd 2022/06/08.10:16:54 P.68d
+FL E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic.vhf 2022/06/15.11:23:33 P.68d
+EN work/clock_vhdl_canceled_schematic 1655276420 \
+      FL E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic.vhf \
+      PB ieee/std_logic_1164 1370735607 PB ieee/NUMERIC_STD 1370735611 LB UNISIM \
+      PH unisim/VCOMPONENTS 1370735613
+AR work/clock_vhdl_canceled_schematic/BEHAVIORAL 1655276421 \
+      FL E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic.vhf \
+      EN work/clock_vhdl_canceled_schematic 1655276420 \
+      CP new_ip_cloc_vhdl_canceled CP yekan_englisi CP dahgan_englisi CP NAND2 \
+      CP RAM16X8S CP GND
+FL E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/dahgan_englisi.vhd 2022/06/08.14:38:54 P.68d
+EN work/dahgan_englisi 1655276418 \
+      FL E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/dahgan_englisi.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/dahgan_englisi/dahgan_englisi_a 1655276419 \
+      FL E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/dahgan_englisi.vhd \
+      EN work/dahgan_englisi 1655276418
+FL E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/new_ip_cloc_vhdl_canceled.vhd 2022/06/08.09:46:18 P.68d
+EN work/new_ip_cloc_vhdl_canceled 1655276414 \
+      FL E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/new_ip_cloc_vhdl_canceled.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/new_ip_cloc_vhdl_canceled/new_ip_cloc_vhdl_canceled_a 1655276415 \
+      FL E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/new_ip_cloc_vhdl_canceled.vhd \
+      EN work/new_ip_cloc_vhdl_canceled 1655276414
+FL E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/yekan_englisi.vhd 2022/06/08.10:16:54 P.68d
+EN work/yekan_englisi 1655276416 \
+      FL E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/yekan_englisi.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/yekan_englisi/yekan_englisi_a 1655276417 \
+      FL E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/yekan_englisi.vhd \
+      EN work/yekan_englisi 1655276416

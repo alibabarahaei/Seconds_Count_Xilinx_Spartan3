@@ -1,0 +1,38 @@
+NET "oy(0)" LOC=p155;
+NET "oy(1)" LOC=p162;
+NET "oy(2)" LOC=p168;
+NET "oy(3)" LOC=p171;
+NET "oy(4)" LOC=p169;
+NET "oy(5)" LOC=p165;
+NET "oy(6)" LOC=p161;
+
+
+//T "oy(0)" LOC=p161;
+//T "oy(1)" LOC=p165;
+//T "oy(2)" LOC=p169;
+//T "oy(3)" LOC=p171;
+//T "oy(4)" LOC=p168;
+//T "oy(5)" LOC=p162;
+//T "oy(6)" LOC=p155;
+//T "oy(7)" LOC=p175;
+
+NET "od(0)" LOC=p147;
+NET "od(1)" LOC=p149;
+NET "od(2)" LOC=p100;
+NET "od(3)" LOC=p176;
+NET "od(4)" LOC=p166;
+NET "od(5)" LOC=p156;
+NET "od(6)" LOC=p154;
+
+
+//T "od(0)" LOC=p154;
+//T "od(1)" LOC=p156;
+//T "od(2)" LOC=p166;
+//T "od(3)" LOC=p176;
+//T "od(4)" LOC=p100;
+//T "od(5)" LOC=p149;
+//T "od(6)" LOC=p147;
+//T "od(7)" LOC=p178;
+
+NET "clock" LOC=p22;
+NET "clock" CLOCK_DEDICATED_ROUTE = FALSE;

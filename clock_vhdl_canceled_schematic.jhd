@@ -1,0 +1,7 @@
+MODULE clock_vhdl_canceled_schematic
+	SUBMODULE new_ip_cloc_vhdl_canceled
+		INSTANCE XLXI_2
+	SUBMODULE yekan_englisi
+		INSTANCE XLXI_3
+	SUBMODULE dahgan_englisi
+		INSTANCE XLXI_4

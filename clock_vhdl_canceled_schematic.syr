@@ -1,0 +1,501 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: clock_vhdl_canceled_schematic.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "clock_vhdl_canceled_schematic.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "clock_vhdl_canceled_schematic"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : clock_vhdl_canceled_schematic
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/new_ip_cloc_vhdl_canceled.vhd" in Library work.
+Architecture new_ip_cloc_vhdl_canceled_a of Entity new_ip_cloc_vhdl_canceled is up to date.
+Compiling vhdl file "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/yekan_englisi.vhd" in Library work.
+Architecture yekan_englisi_a of Entity yekan_englisi is up to date.
+Compiling vhdl file "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/ipcore_dir/dahgan_englisi.vhd" in Library work.
+Architecture dahgan_englisi_a of Entity dahgan_englisi is up to date.
+Compiling vhdl file "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic.vhf" in Library work.
+Architecture behavioral of Entity clock_vhdl_canceled_schematic is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <clock_vhdl_canceled_schematic> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <clock_vhdl_canceled_schematic> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic.vhf" line 137: Unconnected output port 'q' of component 'new_ip_cloc_vhdl_canceled'.
+WARNING:Xst:2211 - "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic.vhf" line 137: Instantiating black box module <new_ip_cloc_vhdl_canceled>.
+WARNING:Xst:2211 - "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic.vhf" line 142: Instantiating black box module <yekan_englisi>.
+WARNING:Xst:2211 - "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic.vhf" line 147: Instantiating black box module <dahgan_englisi>.
+    Set user-defined property "INIT_00 =  0083" for instance <XLXI_7> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_01 =  008e" for instance <XLXI_7> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_02 =  02ba" for instance <XLXI_7> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_03 =  0092" for instance <XLXI_7> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_04 =  0004" for instance <XLXI_7> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_05 =  0060" for instance <XLXI_7> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_06 =  0012" for instance <XLXI_7> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_07 =  0000" for instance <XLXI_7> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_00 =  0083" for instance <XLXI_37> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_01 =  008e" for instance <XLXI_37> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_02 =  02ba" for instance <XLXI_37> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_03 =  0092" for instance <XLXI_37> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_04 =  0004" for instance <XLXI_37> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_05 =  0060" for instance <XLXI_37> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_06 =  0012" for instance <XLXI_37> in unit <clock_vhdl_canceled_schematic>.
+    Set user-defined property "INIT_07 =  0000" for instance <XLXI_37> in unit <clock_vhdl_canceled_schematic>.
+Entity <clock_vhdl_canceled_schematic> analyzed. Unit <clock_vhdl_canceled_schematic> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clock_vhdl_canceled_schematic>.
+    Related source file is "E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schematic.vhf".
+WARNING:Xst:653 - Signal <XLXI_7_WCLK_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_7_D_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+WARNING:Xst:653 - Signal <XLXI_37_WCLK_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_37_D_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+Unit <clock_vhdl_canceled_schematic> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/new_ip_cloc_vhdl_canceled.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/yekan_englisi.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/dahgan_englisi.ngc>.
+Reading Secure Unit <blk00000001>.
+Loading core <new_ip_cloc_vhdl_canceled> for timing and area information for instance <XLXI_2>.
+Loading core <yekan_englisi> for timing and area information for instance <XLXI_3>.
+Loading core <dahgan_englisi> for timing and area information for instance <XLXI_4>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <clock_vhdl_canceled_schematic> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block clock_vhdl_canceled_schematic, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : clock_vhdl_canceled_schematic.ngr
+Top Level Output File Name         : clock_vhdl_canceled_schematic
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 21
+
+Cell Usage :
+# BELS                             : 1
+#      GND                         : 1
+# RAMS                             : 2
+#      RAM16X8S                    : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 20
+#      OBUF                        : 20
+# Logical                          : 1
+#      NAND2                       : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                        8  out of   3584     0%  
+ Number of 4 input LUTs:                 16  out of   7168     0%  
+    Number used as logic:                 0
+    Number used as RAMs:                 16
+ Number of IOs:                          21
+ Number of bonded IOBs:                  21  out of    141    14%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+----------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                  | Load  |
+-----------------------------------+----------------------------------------+-------+
+clock                              | BUFGP                                  | 26    |
+XLXI_2/blk00000001/THRESH0         | NONE(XLXI_3/blk00000001/blk0000000b)   | 5     |
+XLXN_15_OBUF(XLXI_6:O)             | NONE(*)(XLXI_4/blk00000001/blk0000000b)| 5     |
+XLXN_81                            | NONE(XLXI_7)                           | 2     |
+-----------------------------------+----------------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.621ns (Maximum Frequency: 151.028MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 8.352ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 6.621ns (frequency: 151.028MHz)
+  Total number of paths / destination ports: 850 / 51
+-------------------------------------------------------------------------
+Delay:               6.621ns (Levels of Logic = 23)
+  Source:            sec_inst (FF)
+  Destination:       sec_inst (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: sec_inst to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SEC:C->out            1   0.626   0.976  sec_inst (sec_net)
+     SEC:in->out           1   0.479   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.435   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.055   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           2   0.786   1.040  sec_inst (sec_net)
+     SEC:in->out           1   0.479   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.435   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.245   0.000  sec_inst (sec_net)
+     SEC:in                    0.176          sec_inst
+    ----------------------------------------
+    Total                      6.621ns (4.605ns logic, 2.016ns route)
+                                       (69.5% logic, 30.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_2/blk00000001/THRESH0'
+  Clock period: 5.243ns (frequency: 190.723MHz)
+  Total number of paths / destination ports: 28 / 9
+-------------------------------------------------------------------------
+Delay:               5.243ns (Levels of Logic = 5)
+  Source:            sec_inst (FF)
+  Destination:       sec_inst (FF)
+  Source Clock:      XLXI_2/blk00000001/THRESH0 rising
+  Destination Clock: XLXI_2/blk00000001/THRESH0 rising
+
+  Data Path: sec_inst to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SEC:C->out           17   0.626   1.438  sec_inst (sec_net)
+     SEC:in->out           1   0.479   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.435   0.000  sec_inst (sec_net)
+     SEC:in->out           0   0.056   0.000  sec_inst (sec_net)
+     SEC:in->out           2   0.786   0.768  sec_inst (sec_net)
+     SEC:in->out           1   0.479   0.000  sec_inst (sec_net)
+     SEC:in                    0.176          sec_inst
+    ----------------------------------------
+    Total                      5.243ns (3.037ns logic, 2.207ns route)
+                                       (57.9% logic, 42.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_15_OBUF'
+  Clock period: 5.249ns (frequency: 190.516MHz)
+  Total number of paths / destination ports: 28 / 9
+-------------------------------------------------------------------------
+Delay:               5.249ns (Levels of Logic = 4)
+  Source:            sec_inst (FF)
+  Destination:       sec_inst (FF)
+  Source Clock:      XLXN_15_OBUF rising
+  Destination Clock: XLXN_15_OBUF rising
+
+  Data Path: sec_inst to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SEC:C->out           18   0.626   1.499  sec_inst (sec_net)
+     SEC:in->out           1   0.479   0.000  sec_inst (sec_net)
+     SEC:in->out           0   0.435   0.000  sec_inst (sec_net)
+     SEC:in->out           2   0.786   0.768  sec_inst (sec_net)
+     SEC:in->out           1   0.479   0.000  sec_inst (sec_net)
+     SEC:in                    0.176          sec_inst
+    ----------------------------------------
+    Total                      5.249ns (2.981ns logic, 2.268ns route)
+                                       (56.8% logic, 43.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_2/blk00000001/THRESH0'
+  Total number of paths / destination ports: 35 / 10
+-------------------------------------------------------------------------
+Offset:              8.352ns (Levels of Logic = 3)
+  Source:            sec_inst (FF)
+  Destination:       oy<7> (PAD)
+  Source Clock:      XLXI_2/blk00000001/THRESH0 rising
+
+  Data Path: sec_inst to oy<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SEC:C->out           18   0.626   1.204  sec_inst (sec_net)
+     end scope: 'blk00000001'
+     end scope: 'XLXI_3'
+     RAM16X8S:A0->O5       1   0.932   0.681  XLXI_7 (oy_5_OBUF)
+     OBUF:I->O                 4.909          oy_5_OBUF (oy<5>)
+    ----------------------------------------
+    Total                      8.352ns (6.467ns logic, 1.885ns route)
+                                       (77.4% logic, 22.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              6.388ns (Levels of Logic = 2)
+  Source:            sec_inst (FF)
+  Destination:       th_1s (PAD)
+  Source Clock:      clock rising
+
+  Data Path: sec_inst to th_1s
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SEC:C->out            6   0.626   0.853  sec_inst (sec_net)
+     end scope: 'blk00000001'
+     end scope: 'XLXI_2'
+     OBUF:I->O                 4.909          th_1s_OBUF (th_1s)
+    ----------------------------------------
+    Total                      6.388ns (5.535ns logic, 0.853ns route)
+                                       (86.7% logic, 13.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXN_15_OBUF'
+  Total number of paths / destination ports: 33 / 9
+-------------------------------------------------------------------------
+Offset:              8.352ns (Levels of Logic = 3)
+  Source:            sec_inst (FF)
+  Destination:       od<7> (PAD)
+  Source Clock:      XLXN_15_OBUF rising
+
+  Data Path: sec_inst to od<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SEC:C->out           18   0.626   1.204  sec_inst (sec_net)
+     end scope: 'blk00000001'
+     end scope: 'XLXI_4'
+     RAM16X8S:A0->O0       1   0.932   0.681  XLXI_37 (od_0_OBUF)
+     OBUF:I->O                 4.909          od_0_OBUF (od<0>)
+    ----------------------------------------
+    Total                      8.352ns (6.467ns logic, 1.885ns route)
+                                       (77.4% logic, 22.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXN_81'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              7.456ns (Levels of Logic = 1)
+  Source:            XLXI_37 (RAM)
+  Destination:       od<7> (PAD)
+  Source Clock:      XLXN_81 rising
+
+  Data Path: XLXI_37 to od<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAM16X8S:WCLK->O7     1   1.866   0.681  XLXI_37 (od_7_OBUF)
+     OBUF:I->O                 4.909          od_7_OBUF (od<7>)
+    ----------------------------------------
+    Total                      7.456ns (6.775ns logic, 0.681ns route)
+                                       (90.9% logic, 9.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.62 secs
+ 
+--> 
+
+Total memory usage is 268768 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="clock_vhdl.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="clock_vhdl_canceled_schematic.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="clock_vhdl_canceled_schematic.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="clock_vhdl_canceled_schematic.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="clock_vhdl_canceled_schematic.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="clock_vhdl_canceled_schematic.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="clock_vhdl_canceled_schematic.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="clock_vhdl_canceled_schematic.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="clock_vhdl_canceled_schematic.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="clock_vhdl_canceled_schematic.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="clock_vhdl_canceled_schematic.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="clock_vhdl_canceled_schematic.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="clock_vhdl_canceled_schematic.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="clock_vhdl_canceled_schematic.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="clock_vhdl_canceled_schematic.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clock_vhdl_canceled_schematic.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="clock_vhdl_canceled_schematic.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="clock_vhdl_canceled_schematic.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="clock_vhdl_canceled_schematic.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="clock_vhdl_canceled_schematic.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="clock_vhdl_canceled_schematic.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="clock_vhdl_canceled_schematic.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="clock_vhdl_canceled_schematic.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="clock_vhdl_canceled_schematic.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="clock_vhdl_canceled_schematic.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="clock_vhdl_canceled_schematic.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clock_vhdl_canceled_schematic_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="clock_vhdl_canceled_schematic_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="clock_vhdl_canceled_schematic_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clock_vhdl_canceled_schematic_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="clock_vhdl_canceled_schematic_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="clock_vhdl_canceled_schematic_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="clock_vhdl_canceled_schematic_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="clock_vhdl_canceled_schematic_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="clock_vhdl_canceled_schematic_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="clock_vhdl_canceled_schematic_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="clock_vhdl_canceled_schematic_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="clock_vhdl_canceled_schematic_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="clock_vhdl_canceled_schematic_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="clock_vhdl_canceled_schematic_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="clock_vhdl_canceled_schematic_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="clock_vhdl_canceled_schematic_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="clock_vhdl_canceled_schematic_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clock_vhdl_canceled_schematic_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="clock_vhdl_canceled_schematic_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1655273821" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1655273821">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1655273821" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1655273821">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1655273821" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1170418640692241213" xil_pn:start_ts="1655273821">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1655273823" xil_pn:in_ck="999771305160866947" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-929411896033049611" xil_pn:start_ts="1655273821">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1655273824" xil_pn:in_ck="-8587843538768869247" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1311897668965625125" xil_pn:start_ts="1655273823">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/dahgan_englisi.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/dahgan_englisi.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/new_ip_cloc_vhdl_canceled.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/new_ip_cloc_vhdl_canceled.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/yekan_englisi.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/yekan_englisi.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1655273824" xil_pn:in_ck="113248413741892562" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1655273824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.vhf"/>
+      <outfile xil_pn:name="ipcore_dir/dahgan_englisi.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/new_ip_cloc_vhdl_canceled.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/yekan_englisi.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1655273839" xil_pn:in_ck="113248413741892562" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6083621982637683993" xil_pn:start_ts="1655273824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_beh.prj"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1655273840" xil_pn:in_ck="6020438761503597222" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3387421110535737388" xil_pn:start_ts="1655273839">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1655273042" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1655273042">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1655276014" xil_pn:in_ck="999771305160866947" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8086331696821932555" xil_pn:start_ts="1655276011">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1655273044" xil_pn:in_ck="-8587843538768869247" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1311897668965625125" xil_pn:start_ts="1655273044">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/dahgan_englisi.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/dahgan_englisi.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/new_ip_cloc_vhdl_canceled.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/new_ip_cloc_vhdl_canceled.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/yekan_englisi.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/yekan_englisi.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1655273044" xil_pn:in_ck="1101060827536976654" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1655273044">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1655273044" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1170418640692241213" xil_pn:start_ts="1655273044">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1655273278" xil_pn:in_ck="1101060827536976654" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-6388418249795389316" xil_pn:start_ts="1655273278">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1655268914" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8743774743510711323" xil_pn:start_ts="1655268914">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1655276422" xil_pn:in_ck="113248413741892562" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="4500891689109018750" xil_pn:start_ts="1655276411">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.jhd"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.lso"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.ngc"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.ngr"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.prj"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.stx"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.syr"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.xst"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_beh.prj"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_vhdl.prj"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1655276434" xil_pn:in_ck="2445617488285959842" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="6445752913613514745" xil_pn:start_ts="1655276434">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1655276441" xil_pn:in_ck="5668596816297575882" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="1509465737999852323" xil_pn:start_ts="1655276434">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.bld"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.ngd"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1655276446" xil_pn:in_ck="8339536139930964448" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-235656141811914689" xil_pn:start_ts="1655276441">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.pcf"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_map.map"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_map.mrp"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_map.ncd"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_map.ngm"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_map.xrpt"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_summary.xml"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1655276457" xil_pn:in_ck="-131112754644513735" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5298528756167062855" xil_pn:start_ts="1655276446">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.ncd"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.pad"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.par"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.ptwx"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.unroutes"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.xpi"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_pad.csv"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_pad.txt"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1655276475" xil_pn:in_ck="999771305160861498" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="-2672950586390118423" xil_pn:start_ts="1655276461">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.bgn"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.bit"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.drc"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1655276484" xil_pn:in_ck="999771305160848644" xil_pn:name="TRAN_genImpactFile" xil_pn:prop_ck="554339812397760226" xil_pn:start_ts="1655276482">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1655276457" xil_pn:in_ck="-5694522435483641764" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1655276453">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.twr"/>
+      <outfile xil_pn:name="clock_vhdl_canceled_schematic.twx"/>
+    </transform>
+    <transform xil_pn:name="TRAN_postSynthesisSimModel">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

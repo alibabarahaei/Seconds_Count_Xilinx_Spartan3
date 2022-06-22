@@ -1,0 +1,17 @@
+# Output products list for <dahgan_englisi>
+_xmsgs\pn_parser.xmsgs
+core_resources.txt
+dahgan_englisi.asy
+dahgan_englisi.gise
+dahgan_englisi.ngc
+dahgan_englisi.sym
+dahgan_englisi.vhd
+dahgan_englisi.vho
+dahgan_englisi.xco
+dahgan_englisi.xise
+dahgan_englisi\doc\c_counter_binary_v11_0_readme.txt
+dahgan_englisi\doc\c_counter_binary_v11_0_vinfo.html
+dahgan_englisi\doc\ds215_counter.pdf
+dahgan_englisi_flist.txt
+dahgan_englisi_xmdf.tcl
+gui_latency.txt

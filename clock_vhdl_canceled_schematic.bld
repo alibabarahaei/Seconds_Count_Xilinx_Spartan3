@@ -1,0 +1,42 @@
+Release 14.6 ngdbuild P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: d:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc clock_vhdl_ucf.ucf -p
+xc3s400-pq208-5 clock_vhdl_canceled_schematic.ngc
+clock_vhdl_canceled_schematic.ngd
+
+Reading NGO file
+"E:/alibabarahaei_amirkahfi_ebrahimnejati/clock_vhdl/clock_vhdl_canceled_schemat
+ic.ngc" ...
+Loading design module "ipcore_dir/new_ip_cloc_vhdl_canceled.ngc"...
+Loading design module "ipcore_dir/yekan_englisi.ngc"...
+Loading design module "ipcore_dir/dahgan_englisi.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "clock_vhdl_ucf.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 154984 kilobytes
+
+Writing NGD file "clock_vhdl_canceled_schematic.ngd" ...
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+Writing NGDBUILD log file "clock_vhdl_canceled_schematic.bld"...
